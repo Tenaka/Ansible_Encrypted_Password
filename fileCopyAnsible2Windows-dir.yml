@@ -1,0 +1,16 @@
+---
+- name: Copy
+  hosts: win
+  become: false
+  gather_facts: false
+  vars_files:
+    - win.yml
+  vars:
+    source: "/home/user/Documents/Ansible/win-encrypt"
+    destination: "Desktop/encrypt"
+  tasks:
+   - name: copy ping
+     ansible.windows.win_copy:
+       src: "{{ source }}"
+       dest: "{{ destination }}"
+
