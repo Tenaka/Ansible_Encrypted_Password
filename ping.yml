@@ -9,3 +9,4 @@
   tasks:
   - name: Ping targets
     win_ping:
+  no_log: True  
