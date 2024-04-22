@@ -1,3 +1,6 @@
+The how to guide for Ansible Vault is @
+https://www.tenaka.net/post/ansible-vault-for-windows
+
 The files required to encrypt the at rest Windows administrator password used by WinRM and perform a ping or copy contents of a directory.
 
 Windows Creds:
